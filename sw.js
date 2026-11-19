@@ -1,5 +1,5 @@
-// 離線快取：網頁本身「先上網拿最新、沒網路才用存的」，圖示等檔案先用存的。版本：3a18f7b07f
-const CACHE = 'twfm-3a18f7b07f';
+// 離線快取：網頁本身「先上網拿最新、沒網路才用存的」，圖示等檔案先用存的。版本：e18a07347d
+const CACHE = 'twfm-e18a07347d';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
