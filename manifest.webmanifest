@@ -1,0 +1,30 @@
+{
+ "name": "台灣美食地圖",
+ "short_name": "美食地圖",
+ "description": "全台 1,382 家 Google 高評價店家，咖啡廳、拉麵、火鍋、燒肉分成 33 種，每家都有介紹，點地圖就能找。",
+ "lang": "zh-Hant-TW",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FFF6E3",
+ "theme_color": "#FFD43B",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
